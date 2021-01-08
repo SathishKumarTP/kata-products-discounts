@@ -34,4 +34,9 @@ public class ResponseProductDiscount {
 		this.quantity = quantity;
 	}
 
+	@Override
+	public String toString() {
+		return "ResponseProductDiscount [productId=" + productId + ", quantity=" + quantity + "]";
+	}
+
 }
